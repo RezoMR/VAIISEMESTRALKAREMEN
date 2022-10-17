@@ -1,14 +1,16 @@
 /* Horná lišta*/
 h1{
+    font-family: fantasy;
     color: black;
 }
 p1{
-
+    font-family: "Ink Free";
 }
 .popis {
     align-items: center;
 }
 .navbar {
+    font-family: "fantasy";
     opacity: 0.85;
     background: black;
     height: 80px;
@@ -48,8 +50,7 @@ nav ul li{
 
 /*Prihlasenie-Registracia*/
 
-/* Bordered form */
-/* Full-width inputs */
+
 input[type=text], input[type=password] {
     width: 30%;
     padding: 10px 10px;
@@ -59,7 +60,7 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
-/* Set a style for all buttons */
+
 button {
     background-color: #04AA6D;
     color: white;
@@ -70,7 +71,7 @@ button {
     width: 35%;
 }
 
-/* Add a hover effect for buttons */
+
 button:hover {
     opacity: 0.8;
 }
@@ -83,20 +84,20 @@ button:hover {
 }
 
 
-/* Add padding to containers */
+
 .container {
     padding: 16px;
 }
 
-/* zabudnuté heslo*/
+
 span.psw {
     float: right;
     padding-top: 16px;
 }
 .kontakt {
     margin-left: 20%;
-    width: 50%; /* Full width */
-    padding: 20px;/* Some padding */
+    width: 50%;
+    padding: 20px;
     margin-bottom: 5%;
 }
 .pozadiekontaktu {
@@ -104,4 +105,9 @@ span.psw {
     opacity: 0.85;
     color: white;
     border-radius: 4px;
+}
+.zabhes{
+    color: white;
+    font-family: fantasy;
+    font-size: 200%;
 }
